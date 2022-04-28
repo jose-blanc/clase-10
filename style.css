@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+/*MEDIA QUERIES son las reglas que logran el modelo responsive*/
+/*lo que se incluye aca es solo lo que se quiere que se modifique en ese tipo especifico de pantalla, con el mismo lenguaje que se usa siempre*/
+/*mobile*/
+@media only screen and (max-width: 450px) {
+    body{
+        background-color: cadetblue; }
+}
+/*tablet*/
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    body{
+        background-color: tomato;
+    }
+}
+/*desktop*/
+@media only screen and (min-width: 961px) {
+    body{
+        background-color: cornflowerblue ;
+    }
+}
+/*en la opcion en la que arranco trabajando, no suelo hacer las modificaciones de responsive, porque ya puedo ver que se ve bien en esa pantalla*/
+/*A PARTIR DEL MINUTO 25 EXPLICA COMO HACER UNA GALERIA DE IMAGENES*/
